@@ -21,13 +21,15 @@ const SideNavbar = () => {
     <Stack
       spacing={4}
       p={4}
-      boxShadow="sm"
+      boxShadow="lg"
+      borderRadius="md"
+
       maxW="16rem"
       h="100vh"
       justify="space-between"
     >
       {/* Top Section */}
-      <Box>
+      <Box >
         <Heading fontSize="12px" as="h1" pt="56px" textAlign="center">
           @DOSUMCODING
         </Heading>
@@ -40,7 +42,7 @@ const SideNavbar = () => {
               spacing={3}
               py={3}
               px={2}
-              borderRadius="md"
+              mb={6}
               cursor="pointer"
               _hover={{
                 bg: "#F3F3F7",

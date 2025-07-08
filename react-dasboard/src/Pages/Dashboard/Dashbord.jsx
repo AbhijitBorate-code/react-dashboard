@@ -1,10 +1,24 @@
 import React from 'react';
-import { Box } from '@chakra-ui/react'; // ✅ OK now because ChakraProvider is set
 import SideNavbar from '../../Components/Sidebar/Sidebar';
+import TopNavbar from '../../Components/Sidebar/TopNavBar';
+import './Dashboard.css';
+
 const Dashboard = () => {
-  return <Box as="h2">
-    <SideNavbar/>
-  </Box>;
+  return (
+    <div className="dashboard-layout">
+      {/* Sidebar on the left */}
+      <SideNavbar />
+
+      {/* Main content on the right */}
+      <div className="main-content">
+        <TopNavbar />
+        <div className="dashboard-body">
+          {/* Content here */}
+          <h2>Welcome to Crypto Dashboard</h2>
+        </div>
+      </div>
+    </div>
+  );
 };
 
 export default Dashboard;
