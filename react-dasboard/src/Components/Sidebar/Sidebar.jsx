@@ -30,9 +30,9 @@ const SideNavbar = () => {
     >
       {/* Top Section */}
       <Box >
-        <Heading fontSize="12px" as="h1" pt="56px" textAlign="center">
+        {/* <Heading fontSize="12px" as="h1" pt="56px" textAlign="center">
           @DOSUMCODING
-        </Heading>
+        </Heading> */}
 
         <Box mt="6">
           {navLinks.map((res, index) => (

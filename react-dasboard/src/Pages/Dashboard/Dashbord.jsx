@@ -2,19 +2,16 @@ import React from 'react';
 import SideNavbar from '../../Components/Sidebar/Sidebar';
 import TopNavbar from '../../Components/Sidebar/TopNavBar';
 import './Dashboard.css';
+import Support from '../Support/Support';
 
 const Dashboard = () => {
   return (
     <div className="dashboard-layout">
-      {/* Sidebar on the left */}
       <SideNavbar />
-
-      {/* Main content on the right */}
       <div className="main-content">
         <TopNavbar />
         <div className="dashboard-body">
-          {/* Content here */}
-          <h2>Welcome to Crypto Dashboard</h2>
+          <Support></Support>
         </div>
       </div>
     </div>
