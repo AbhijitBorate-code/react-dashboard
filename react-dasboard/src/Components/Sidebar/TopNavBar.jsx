@@ -7,7 +7,7 @@ import {
   Spacer,
 } from "@chakra-ui/react";
 import { FiUser } from "react-icons/fi";
-import "./TopNavbar.css";
+import "./Topnavbar.css";
 
 const TopNavbar = () => {
   return (
